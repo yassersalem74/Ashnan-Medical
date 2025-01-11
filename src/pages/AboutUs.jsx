@@ -6,18 +6,23 @@ export default function AboutUs() {
         <div>
           <h2 className="font-bold text-4xl pb-2">About Us</h2>
         </div>
-        <div>
-          <p className="text-gray-600 text-justify">
-            ASHNAN Medical EST. is a trading name under which the health care
-            business operates in the Gulf Area and North Africa. ASHNAN Medical
-            EST has been expanding its activities over this year and its range
-            of products The range of product being distributed is extensive
-            enough to cover all the needs of a trading company from top end
-            medical product/instrument to top end dental product/instrument.
-            ASHNAN Medical EST has a dynamic group of personnel and a staff of
-            which are fully trained medical representative. We Are Your Partner
-            in Business.
-          </p>
+        <div className="flex flex-col md:flex-row gap-5 items-center">
+          <div className="w-full md:w-3/5">
+            <p className="text-gray-600 text-justify">
+              ASHNAN Medical EST. is a trading name under which the health care
+              business operates in the Gulf Area and North Africa. ASHNAN
+              Medical EST has been expanding its activities over this year and
+              its range of products The range of product being distributed is
+              extensive enough to cover all the needs of a trading company from
+              top end medical product/instrument to top end dental
+              product/instrument. ASHNAN Medical EST has a dynamic group of
+              personnel and a staff of which are fully trained medical
+              representative. We Are Your Partner in Business.
+            </p>
+          </div>
+          <div className="w-full md:w-2/5">
+            <img src="/Tooth.jpeg" alt="" />
+          </div>
         </div>
       </div>
 

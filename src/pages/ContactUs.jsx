@@ -1,6 +1,6 @@
 export default function ContactUs() {
   return (
-    <div className="px-8 sm:px-16 py-12 bg-gray-100">
+    <div className="px-8 sm:px-16 py-12 bg-gray-100 mb-14">
       {/* Page Title */}
       <div>
         <h2 className="font-bold text-3xl pb-5">Contact US</h2>

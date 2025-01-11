@@ -1,4 +1,4 @@
-export default function OurParteners() {
+export default function PartnersSection() {
   const partners = [
     {
       link: "https://www.hansonmedical.com/",

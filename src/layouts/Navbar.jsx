@@ -23,13 +23,15 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 z-[1] mt-3 w-52 p-2 shadow"
           >
             <li className="px-2">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                  isActive
+                    ? "bg-white border-b-2 border-purple-color"
+                    : "hover:bg-white hover:border-b-2 hover:border-purple-color"
                 }
               >
                 Home
@@ -39,44 +41,33 @@ export default function Navbar() {
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                  isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                  isActive
+                    ? "bg-white border-b-2 border-purple-color"
+                    : "hover:bg-white hover:border-b-2 hover:border-purple-color"
                 }
               >
                 About Us
               </NavLink>
             </li>
             <li className="px-2">
-              <details>
-                <summary>Products</summary>
-                <ul>
-                  <li className="px-2">
-                    <NavLink
-                      to="/products/one"
-                      className={({ isActive }) =>
-                        isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
-                      }
-                    >
-                      Product One
-                    </NavLink>
-                  </li>
-                  <li className="px-2">
-                    <NavLink
-                      to="/products/two"
-                      className={({ isActive }) =>
-                        isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
-                      }
-                    >
-                      Product Two
-                    </NavLink>
-                  </li>
-                </ul>
-              </details>
+              <NavLink
+                to="/products"
+                className={({ isActive }) =>
+                  isActive
+                    ? "bg-white border-b-2 border-purple-color"
+                    : "hover:bg-white hover:border-b-2 hover:border-purple-color"
+                }
+              >
+                Products
+              </NavLink>
             </li>
             <li className="px-2">
               <NavLink
                 to="/partners"
                 className={({ isActive }) =>
-                  isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                  isActive
+                    ? "bg-white border-b-2 border-purple-color"
+                    : "hover:bg-white hover:border-b-2 hover:border-purple-color"
                 }
               >
                 Our Partners
@@ -86,7 +77,9 @@ export default function Navbar() {
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                  isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                  isActive
+                    ? "bg-white border-b-2 border-purple-color"
+                    : "hover:bg-white hover:border-b-2 hover:border-purple-color"
                 }
               >
                 Contact Us
@@ -106,7 +99,9 @@ export default function Navbar() {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                isActive
+                  ? "bg-white border-b-2 border-purple-color"
+                  : "hover:bg-white hover:border-b-2 hover:border-purple-color"
               }
             >
               Home
@@ -116,44 +111,33 @@ export default function Navbar() {
             <NavLink
               to="/about"
               className={({ isActive }) =>
-                isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                isActive
+                  ? "bg-white border-b-2 border-purple-color"
+                  : "hover:bg-white hover:border-b-2 hover:border-purple-color"
               }
             >
               About Us
             </NavLink>
           </li>
           <li className="px-2">
-            <details>
-              <summary>Products</summary>
-              <ul className="p-2 bg-base-100 rounded-box">
-                <li className="px-2">
-                  <NavLink
-                    to="/products/one"
-                    className={({ isActive }) =>
-                      isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
-                    }
-                  >
-                    Product One
-                  </NavLink>
-                </li>
-                <li className="px-2">
-                  <NavLink
-                    to="/products/two"
-                    className={({ isActive }) =>
-                      isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
-                    }
-                  >
-                    Product Two
-                  </NavLink>
-                </li>
-              </ul>
-            </details>
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive
+                  ? "bg-white border-b-2 border-purple-color"
+                  : "hover:bg-white hover:border-b-2 hover:border-purple-color"
+              }
+            >
+              Products
+            </NavLink>
           </li>
           <li className="px-2">
             <NavLink
               to="/partners"
               className={({ isActive }) =>
-                isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                isActive
+                  ? "bg-white border-b-2 border-purple-color"
+                  : "hover:bg-white hover:border-b-2 hover:border-purple-color"
               }
             >
               Our Partners
@@ -163,7 +147,9 @@ export default function Navbar() {
             <NavLink
               to="/contact"
               className={({ isActive }) =>
-                isActive ? "bg-purple-color text-white" : "hover:bg-purple-color hover:text-white"
+                isActive
+                  ? "bg-white border-b-2 border-purple-color"
+                  : "hover:bg-white hover:border-b-2 hover:border-purple-color"
               }
             >
               Contact Us
