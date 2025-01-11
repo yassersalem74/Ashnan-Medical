@@ -49,7 +49,7 @@ export default function Navbar() {
                 About Us
               </NavLink>
             </li>
-            <li className="px-2">
+            {/* <li className="px-2">
               <NavLink
                 to="/products"
                 className={({ isActive }) =>
@@ -60,7 +60,7 @@ export default function Navbar() {
               >
                 Products
               </NavLink>
-            </li>
+            </li> */}
             <li className="px-2">
               <NavLink
                 to="/partners"
@@ -119,7 +119,7 @@ export default function Navbar() {
               About Us
             </NavLink>
           </li>
-          <li className="px-2">
+          {/* <li className="px-2">
             <NavLink
               to="/products"
               className={({ isActive }) =>
@@ -130,7 +130,7 @@ export default function Navbar() {
             >
               Products
             </NavLink>
-          </li>
+          </li> */}
           <li className="px-2">
             <NavLink
               to="/partners"

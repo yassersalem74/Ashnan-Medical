@@ -17,7 +17,7 @@ export default function Hero() {
           />
           {/* Image for large screens */}
           <img
-            src="/cover2.jpg"
+            src="/healthy-tooth.jpg"
             alt="Hero Background"
             className="w-full h-full object-cover hidden md:block" // Show on medium and larger screens
           />

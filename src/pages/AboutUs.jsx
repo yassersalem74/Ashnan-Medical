@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <div className="px-8 sm:px-16 py-12 bg-gray-100 flex flex-col lg:flex-row items-baseline gap-9">
       {/* Section Title */}
-      <div className="flex flex-col items-start h-full w-full lg:w-3/5 gap-12">
+      <div className="flex flex-col items-start h-full w-full lg:w-3/5 gap-5">
         <div>
           <h2 className="font-bold text-4xl pb-2">About Us</h2>
         </div>
